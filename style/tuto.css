@@ -1,5 +1,11 @@
+html{
+	background-color: rgb(200,200,200);
+}
+
 body {
-  padding-top: 10px;
+	background-color: rgb(200,200,200);
+	padding-top: 10px;
+	color: black;
 }
 
 footer {
