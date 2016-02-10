@@ -1,0 +1,39 @@
+*{
+  font-family: Garamond;
+}
+.center{
+	margin-left: 35%;
+}
+
+h1{
+
+	text-align: center;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+label{
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+
+p{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+a{
+  color: #0188FE;
+}
+a:hover{
+  color: #000B9D;
+  text-decoration: none;
+}
+
+img{
+  max-width: 170px;
+}
