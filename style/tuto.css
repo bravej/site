@@ -1,79 +1,39 @@
-html{
-	background-color: rgb(200,200,200);
+*{
+  font-family: Garamond;
 }
-
-body {
-	background-color: rgb(200,200,200);
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: black;
-}
-
-footer {
-	background-image: url('../fond.jpg');
-	border: 2px solid black;
-	border-bottom-left-radius:6px;
-	border-bottom-right-radius:6px;
-	line-height: 40px;
-	text-align: center;
-	color: white;
-}
-
-header{
-	background-image: url('../fond.jpg');
-	color: white;
-	border-top-left-radius:6px;
-	border-top-right-radius:6px;
-	text-align: center;
-}
-
-section{
-	border: 1px solid black;
-}
-
-/************************************************NAV*********************************************/
-nav {
-	background-color: black;
-	text-align: center;
-}
-
-nav a {
-	display: inline-block;
-	color: 	white;
-	text-decoration: none;
-	font-size: 15px;
-	line-height : 15px;
-	padding     : 0 20px;
-	border-right: solid 2px #D0CFD2;
-	border-left: solid 2px #D0CFD2;
-}
-
-nav a:hover{
-	background-image: url('../fond.jpg');
-	color: white;
-	text-decoration: none;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-
 .center{
-	margin-left: 25%;
+	margin-left: 35%;
+}
+
+h1{
+
+	text-align: center;
 }
 
 fieldset {
   margin-bottom: 15px;
   padding: 10px;
-  text-align: center;
 }
- 
-legend {
-  padding: 0px 3px;
-  font-weight: bold;
-  font-variant: small-caps;
-}
+
 label{
   width: 110px;
   display: inline-block;
   vertical-align: top;
   margin: 6px;
+}
+
+p{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+a{
+  color: #0188FE;
+}
+a:hover{
+  color: #000B9D;
+  text-decoration: none;
+}
+
+img{
+  max-width: 170px;
 }
